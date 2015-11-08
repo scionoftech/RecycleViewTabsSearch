@@ -50,6 +50,7 @@ public class MainFragment extends Fragment {
 
         //search item in list
         edit_text_search = (EditText) view.findViewById(R.id.edit_text_search);
+        edit_text_search.setCursorVisible(false);
         edit_text_search.addTextChangedListener(new TextWatcher() {
             @Override
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {
